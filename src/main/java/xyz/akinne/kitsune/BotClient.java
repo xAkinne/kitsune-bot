@@ -1,12 +1,10 @@
-package xyz.akinne;
+package xyz.akinne.kitsune;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
 import net.dv8tion.jda.api.sharding.ShardManager;
-
-import javax.security.auth.login.LoginException;
 
 
 public class BotClient {
