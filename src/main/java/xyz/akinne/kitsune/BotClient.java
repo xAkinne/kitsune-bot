@@ -1,13 +1,13 @@
 package xyz.akinne.kitsune;
 
 import io.github.cdimascio.dotenv.Dotenv;
-import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
 import net.dv8tion.jda.api.sharding.ShardManager;
 import xyz.akinne.kitsune.listeners.EventListener;
 import xyz.akinne.kitsune.listeners.commands.BotCommands;
+import xyz.akinne.kitsune.listeners.commands.music.joinCommand;
 
 
 public class BotClient {
@@ -27,7 +27,13 @@ public class BotClient {
         shardManager = builder.build();
 
 
-            shardManager.addEventListener(new EventListener(),new BotCommands());
+            shardManager.addEventListener(
+                    new EventListener(),
+                    new BotCommands(),
+                    // music
+                    new joinCommand()
+                    // ------
+            );
 
     }
 
