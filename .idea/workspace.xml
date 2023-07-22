@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6cf8e9c-a246-4de7-878e-59ee494264a0" name="Changes" comment="added slash commands">
-      <change afterPath="$PROJECT_DIR$/classcommandexampe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/music/joinCommand.java" afterDir="false" />
+    <list default="true" id="b6cf8e9c-a246-4de7-878e-59ee494264a0" name="Changes" comment="added join command (not compleated)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/music/exitCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/BotClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/BotClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/BotCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/BotCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/music/joinCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/music/joinCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687466791800</updated>
       <workItem from="1687466796444" duration="6502000" />
-      <workItem from="1689975113941" duration="9194000" />
+      <workItem from="1689975113941" duration="11673000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1687470233623</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689980434582</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added join command (not compleated)">
+      <created>1689984692735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689984692735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +110,7 @@
     <MESSAGE value="Start" />
     <MESSAGE value="eventlistener added" />
     <MESSAGE value="added slash commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="added slash commands" />
+    <MESSAGE value="added join command (not compleated)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added join command (not compleated)" />
   </component>
 </project>

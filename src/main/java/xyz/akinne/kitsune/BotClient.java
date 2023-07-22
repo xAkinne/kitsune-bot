@@ -7,6 +7,7 @@ import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
 import net.dv8tion.jda.api.sharding.ShardManager;
 import xyz.akinne.kitsune.listeners.EventListener;
 import xyz.akinne.kitsune.listeners.commands.BotCommands;
+import xyz.akinne.kitsune.listeners.commands.music.exitCommand;
 import xyz.akinne.kitsune.listeners.commands.music.joinCommand;
 
 
@@ -28,11 +29,8 @@ public class BotClient {
 
 
             shardManager.addEventListener(
-                    new EventListener(),
-                    new BotCommands(),
-                    // music
-                    new joinCommand()
-                    // ------
+                    new BotCommands()
+
             );
 
     }
