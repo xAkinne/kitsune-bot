@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6cf8e9c-a246-4de7-878e-59ee494264a0" name="Changes" comment="added join command (not compleated)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/music/exitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/BotClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/BotClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/BotCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/BotCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/music/joinCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/akinne/kitsune/listeners/commands/music/joinCommand.java" afterDir="false" />
-    </list>
+    <list default="true" id="b6cf8e9c-a246-4de7-878e-59ee494264a0" name="Changes" comment="added &quot;wykurwiście dużo&quot;. My head is one big *****" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6154108d-847b-4b3e-b84f-1931492df182" />
+        <option name="url" value="https://github.com/xAkinne/kitsune-bot" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,14 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Dokumenty/InteliJ IDEA/kitsune",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1687466791800</updated>
       <workItem from="1687466796444" duration="6502000" />
-      <workItem from="1689975113941" duration="11673000" />
+      <workItem from="1689975113941" duration="11755000" />
+      <workItem from="1690017938710" duration="3631000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1687470233623</created>
@@ -89,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689984692735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added join and leave command with channel secure">
+      <created>1689987216374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689987216374</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +112,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -111,6 +135,7 @@
     <MESSAGE value="eventlistener added" />
     <MESSAGE value="added slash commands" />
     <MESSAGE value="added join command (not compleated)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added join command (not compleated)" />
+    <MESSAGE value="added join and leave command with channel secure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added join and leave command with channel secure" />
   </component>
 </project>
